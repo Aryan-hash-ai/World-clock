@@ -1,0 +1,64 @@
+/* Additional styling if necessary for the new cities */
+*{
+       background-color: rgb(171, 187, 187);
+       color: black;
+       box-sizing: border-box;
+       text-align: justify;
+}
+.nav{
+       height: 70px;
+       
+       border: 1px solid transparent;
+       background-color: white;
+}
+.nav>ul{
+       list-style-type: none;
+       display: flex;
+       justify-content: space-around;
+}
+.nav>ul>li>a{
+       color: black;
+       text-decoration: none;
+}
+.world-clock>h3{
+       background-color: #7632db;
+}
+.cities {
+       display: flex;
+       justify-content: space-around;
+       flex-wrap: wrap;
+       gap: 20px;
+   }
+   
+   .city {
+       width: 200px;
+       padding: 10px;
+       background-color: white;
+       border-radius: 10px;
+       box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+       margin-bottom: 20px;
+   }
+   
+   .clock {
+       width: 150px;
+       height: 150px;
+       background-color: #ffffff;
+       border: 5px solid #7632db;
+       border-radius: 50%;
+       background: url("../img/clock.jpg");
+       margin: 0 auto 10px auto;
+       position: relative;
+
+   }
+   
+   .clock .hand {
+       position: absolute;
+       width: 2px;
+       height: 60px;
+       background-color: black;
+       top:50%;
+       left: 50%;
+       transform-origin: top;
+       /* transform: rotate(90deg); */
+   }
+   
